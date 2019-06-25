@@ -1,0 +1,24 @@
+{
+  "name": "reportes-api",
+  "version": "1.0.0",
+  "description": "Servicio para crear reportes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index"
+  },
+  "author": "JEISON MANUEL VARGAS VARGAS",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-asyncify": "^1.0.0",
+    "express-static": "^1.2.6",
+    "mime2": "0.0.9",
+    "node-static": "^0.7.11",
+    "nodemon": "^1.18.9"
+  }
+}
